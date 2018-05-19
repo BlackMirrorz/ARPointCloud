@@ -32,7 +32,7 @@ extension ViewController: ARSCNViewDelegate{
                 self.sessionLabelView.isHidden = validSessionText.isEmpty
             }
             
-            if self.sessionLabelView.isHidden { self.sessionLabelView.alpha = 0 } else { self.sessionLabelView.alpha = 1 }
+            if self.sessionLabelView.isHidden { self.settingsConstraint.constant = 26 } else { self.settingsConstraint.constant = 0 }
         }
     
     }
@@ -76,6 +76,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sessionLabelView: UIView!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var rawFeaturesLabel: UILabel!
+    @IBOutlet var settingsConstraint: NSLayoutConstraint!
     var Feature_Label_Prefix = "Number Of Raw Feature Points Detected = "
     
     //3. Create Our ARWorld Tracking Configuration
@@ -99,6 +100,8 @@ class ViewController: UIViewController {
         setupARSession()
 
     }
+    
+    override var prefersStatusBarHidden: Bool { return true }
 
     override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() }
 

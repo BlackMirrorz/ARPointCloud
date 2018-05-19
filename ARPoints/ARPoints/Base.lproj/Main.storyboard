@@ -75,6 +75,7 @@
                         <outlet property="augmentedRealityView" destination="CaN-1q-dfk" id="8Rk-fM-va8"/>
                         <outlet property="rawFeaturesLabel" destination="9qY-fg-tEm" id="haJ-5k-xQW"/>
                         <outlet property="sessionLabelView" destination="TQx-g1-kJM" id="rTE-df-8Eu"/>
+                        <outlet property="settingsConstraint" destination="nu6-kA-0Xn" id="04O-nl-hIK"/>
                         <outlet property="statusLabel" destination="yxC-56-Nm6" id="ezB-eS-KoQ"/>
                     </connections>
                 </viewController>
