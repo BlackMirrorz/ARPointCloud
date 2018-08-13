@@ -1,5 +1,5 @@
 
-# ARPointCloud
+# ARKitPointCloud
 
 This project is a basic example of visualizing a `pointCloud` in `ARKit` using the `rawFeaturePoints` available from the `ARSession` current frame.
 
