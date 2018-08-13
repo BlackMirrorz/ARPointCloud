@@ -5,9 +5,14 @@ This project is a basic example of visualizing a `pointCloud` in `ARKit` using t
 
 All the code is fully commented so the apps functionality should be clear to everyone.
 
+**Branches:**
+
+The Master Branch was originally compiled in XCode10 Beta using Swift 4.
+
+An updated Branch called 'Swift4.2' contains the project built in XCode 10.5 Beta and uses Swift 4.2.
+
 **Requirements:**
 
-This project was written in Swift 4, and at the time of writing uses Xcode 9.4 Beta.
 The project is setup for iPhone, and in Portait Orientation.
 
 **Core Functionality:**
